@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "city-lights-night-sky-from-sandsfoot-beach-dorset-uk_181624-9037 copy.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		381F37732909201A00EBEBE0 /* starApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F37722909201A00EBEBE0 /* starApp.swift */; };
-		381F37752909201A00EBEBE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F37742909201A00EBEBE0 /* ContentView.swift */; };
 		381F37772909201B00EBEBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381F37762909201B00EBEBE0 /* Assets.xcassets */; };
 		381F377A2909201B00EBEBE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381F37792909201B00EBEBE0 /* Preview Assets.xcassets */; };
 		381F37842909201B00EBEBE0 /* starTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F37832909201B00EBEBE0 /* starTests.swift */; };
 		381F378E2909201B00EBEBE0 /* starUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F378D2909201B00EBEBE0 /* starUITests.swift */; };
 		381F37902909201B00EBEBE0 /* starUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F378F2909201B00EBEBE0 /* starUITestsLaunchTests.swift */; };
+		381F379D2909213D00EBEBE0 /* splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F379C2909213D00EBEBE0 /* splash.swift */; };
+		388826B7290F9A34004023F9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388826B6290F9A34004023F9 /* ProfileView.swift */; };
+		388826B9290F9AAE004023F9 /* likesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388826B8290F9AAE004023F9 /* likesView.swift */; };
+		388826BB290F9D8E004023F9 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388826BA290F9D8E004023F9 /* Tab.swift */; };
+		388826BD290FA127004023F9 /* challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388826BC290FA127004023F9 /* challenges.swift */; };
+		388826BF290FA17D004023F9 /* notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388826BE290FA17D004023F9 /* notifications.swift */; };
+		38D8B1852910E74F0005EAF5 /* newchallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B1842910E74F0005EAF5 /* newchallenges.swift */; };
+		38D8B1872910E8630005EAF5 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B1862910E8630005EAF5 /* login.swift */; };
+		38D8B1892910EC8C0005EAF5 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B1882910EC8C0005EAF5 /* Picture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		381F376F2909201A00EBEBE0 /* star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = star.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381F37722909201A00EBEBE0 /* starApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starApp.swift; sourceTree = "<group>"; };
-		381F37742909201A00EBEBE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		381F37762909201B00EBEBE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		381F37792909201B00EBEBE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		381F377F2909201B00EBEBE0 /* starTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,15 @@
 		381F37892909201B00EBEBE0 /* starUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = starUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		381F378D2909201B00EBEBE0 /* starUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starUITests.swift; sourceTree = "<group>"; };
 		381F378F2909201B00EBEBE0 /* starUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		381F379C2909213D00EBEBE0 /* splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splash.swift; sourceTree = "<group>"; };
+		388826B6290F9A34004023F9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		388826B8290F9AAE004023F9 /* likesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = likesView.swift; sourceTree = "<group>"; };
+		388826BA290F9D8E004023F9 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		388826BC290FA127004023F9 /* challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenges.swift; sourceTree = "<group>"; };
+		388826BE290FA17D004023F9 /* notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifications.swift; sourceTree = "<group>"; };
+		38D8B1842910E74F0005EAF5 /* newchallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newchallenges.swift; sourceTree = "<group>"; };
+		38D8B1862910E8630005EAF5 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		38D8B1882910EC8C0005EAF5 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,7 @@
 		381F37662909201A00EBEBE0 = {
 			isa = PBXGroup;
 			children = (
+				38D8B1882910EC8C0005EAF5 /* Picture.swift */,
 				381F37712909201A00EBEBE0 /* star */,
 				381F37822909201B00EBEBE0 /* starTests */,
 				381F378C2909201B00EBEBE0 /* starUITests */,
@@ -95,7 +112,14 @@
 			isa = PBXGroup;
 			children = (
 				381F37722909201A00EBEBE0 /* starApp.swift */,
-				381F37742909201A00EBEBE0 /* ContentView.swift */,
+				388826B8290F9AAE004023F9 /* likesView.swift */,
+				388826B6290F9A34004023F9 /* ProfileView.swift */,
+				388826BA290F9D8E004023F9 /* Tab.swift */,
+				388826BE290FA17D004023F9 /* notifications.swift */,
+				38D8B1862910E8630005EAF5 /* login.swift */,
+				38D8B1842910E74F0005EAF5 /* newchallenges.swift */,
+				388826BC290FA127004023F9 /* challenges.swift */,
+				381F379C2909213D00EBEBE0 /* splash.swift */,
 				381F37762909201B00EBEBE0 /* Assets.xcassets */,
 				381F37782909201B00EBEBE0 /* Preview Content */,
 			);
@@ -257,8 +281,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				381F37752909201A00EBEBE0 /* ContentView.swift in Sources */,
+				388826B7290F9A34004023F9 /* ProfileView.swift in Sources */,
+				388826BD290FA127004023F9 /* challenges.swift in Sources */,
+				388826B9290F9AAE004023F9 /* likesView.swift in Sources */,
+				388826BB290F9D8E004023F9 /* Tab.swift in Sources */,
+				38D8B1872910E8630005EAF5 /* login.swift in Sources */,
 				381F37732909201A00EBEBE0 /* starApp.swift in Sources */,
+				38D8B1892910EC8C0005EAF5 /* Picture.swift in Sources */,
+				381F379D2909213D00EBEBE0 /* splash.swift in Sources */,
+				38D8B1852910E74F0005EAF5 /* newchallenges.swift in Sources */,
+				388826BF290FA17D004023F9 /* notifications.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,8 +444,8 @@
 		381F37942909201B00EBEBE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"star/Preview Content\"";
@@ -440,8 +472,8 @@
 		381F37952909201B00EBEBE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"star/Preview Content\"";
