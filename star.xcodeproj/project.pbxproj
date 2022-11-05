@@ -26,6 +26,9 @@
 		388826BF290FA17D004023F9 /* notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388826BE290FA17D004023F9 /* notifications.swift */; };
 		38D8B1852910E74F0005EAF5 /* newchallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B1842910E74F0005EAF5 /* newchallenges.swift */; };
 		38D8B1892910EC8C0005EAF5 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B1882910EC8C0005EAF5 /* Picture.swift */; };
+		67A7EDB12916B081008C6803 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7EDB02916B081008C6803 /* Login.swift */; };
+		67A7EDB32916B1A4008C6803 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7EDB22916B1A4008C6803 /* Register.swift */; };
+		67A7EDB52916B20A008C6803 /* Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7EDB42916B20A008C6803 /* Reset.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +71,9 @@
 		388826BE290FA17D004023F9 /* notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifications.swift; sourceTree = "<group>"; };
 		38D8B1842910E74F0005EAF5 /* newchallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newchallenges.swift; sourceTree = "<group>"; };
 		38D8B1882910EC8C0005EAF5 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		67A7EDB02916B081008C6803 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		67A7EDB22916B1A4008C6803 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		67A7EDB42916B20A008C6803 /* Reset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reset.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,9 @@
 				381F37722909201A00EBEBE0 /* starApp.swift */,
 				388826B8290F9AAE004023F9 /* likesView.swift */,
 				388826B6290F9A34004023F9 /* ProfileView.swift */,
+				67A7EDB02916B081008C6803 /* Login.swift */,
+				67A7EDB22916B1A4008C6803 /* Register.swift */,
+				67A7EDB42916B20A008C6803 /* Reset.swift */,
 				388826BA290F9D8E004023F9 /* Tab.swift */,
 				388826BE290FA17D004023F9 /* notifications.swift */,
 				38D8B1842910E74F0005EAF5 /* newchallenges.swift */,
@@ -299,9 +308,12 @@
 				04DD522629168755009716A1 /* color.swift in Sources */,
 				388826B9290F9AAE004023F9 /* likesView.swift in Sources */,
 				04DD5222291685E1009716A1 /* JoinChallenge.swift in Sources */,
+				67A7EDB12916B081008C6803 /* Login.swift in Sources */,
+				67A7EDB52916B20A008C6803 /* Reset.swift in Sources */,
 				04DD521E291684F2009716A1 /* catogry.swift in Sources */,
 				388826BB290F9D8E004023F9 /* Tab.swift in Sources */,
 				381F37732909201A00EBEBE0 /* starApp.swift in Sources */,
+				67A7EDB32916B1A4008C6803 /* Register.swift in Sources */,
 				38D8B1892910EC8C0005EAF5 /* Picture.swift in Sources */,
 				381F379D2909213D00EBEBE0 /* splash.swift in Sources */,
 				38D8B1852910E74F0005EAF5 /* newchallenges.swift in Sources */,
