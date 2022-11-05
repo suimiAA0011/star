@@ -13,7 +13,7 @@ struct Tab: View {
         
         TabView{
            
-            challenges()
+           challenges()
                 .tabItem{Label("challenges",systemImage: "flag.2.crossed.fill")}
             likesView()
                 .tabItem{Label("favorites",systemImage: "heart")}
