@@ -25,7 +25,6 @@
 		388826BD290FA127004023F9 /* challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388826BC290FA127004023F9 /* challenges.swift */; };
 		388826BF290FA17D004023F9 /* notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388826BE290FA17D004023F9 /* notifications.swift */; };
 		38D8B1852910E74F0005EAF5 /* newchallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B1842910E74F0005EAF5 /* newchallenges.swift */; };
-		38D8B1872910E8630005EAF5 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B1862910E8630005EAF5 /* login.swift */; };
 		38D8B1892910EC8C0005EAF5 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B1882910EC8C0005EAF5 /* Picture.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,7 +67,6 @@
 		388826BC290FA127004023F9 /* challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenges.swift; sourceTree = "<group>"; };
 		388826BE290FA17D004023F9 /* notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifications.swift; sourceTree = "<group>"; };
 		38D8B1842910E74F0005EAF5 /* newchallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newchallenges.swift; sourceTree = "<group>"; };
-		38D8B1862910E8630005EAF5 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
 		38D8B1882910EC8C0005EAF5 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +124,6 @@
 				388826B6290F9A34004023F9 /* ProfileView.swift */,
 				388826BA290F9D8E004023F9 /* Tab.swift */,
 				388826BE290FA17D004023F9 /* notifications.swift */,
-				38D8B1862910E8630005EAF5 /* login.swift */,
 				38D8B1842910E74F0005EAF5 /* newchallenges.swift */,
 				388826BC290FA127004023F9 /* challenges.swift */,
 				04DD521D291684F2009716A1 /* catogry.swift */,
@@ -304,7 +301,6 @@
 				04DD5222291685E1009716A1 /* JoinChallenge.swift in Sources */,
 				04DD521E291684F2009716A1 /* catogry.swift in Sources */,
 				388826BB290F9D8E004023F9 /* Tab.swift in Sources */,
-				38D8B1872910E8630005EAF5 /* login.swift in Sources */,
 				381F37732909201A00EBEBE0 /* starApp.swift in Sources */,
 				38D8B1892910EC8C0005EAF5 /* Picture.swift in Sources */,
 				381F379D2909213D00EBEBE0 /* splash.swift in Sources */,
