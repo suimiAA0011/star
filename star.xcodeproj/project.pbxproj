@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04DD521E291684F2009716A1 /* catogry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD521D291684F2009716A1 /* catogry.swift */; };
+		04DD522029168561009716A1 /* photopicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD521F29168561009716A1 /* photopicker.swift */; };
+		04DD5222291685E1009716A1 /* JoinChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD5221291685E1009716A1 /* JoinChallenge.swift */; };
+		04DD522429168638009716A1 /* AddnewChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD522329168638009716A1 /* AddnewChallenge.swift */; };
+		04DD522629168755009716A1 /* color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD522529168755009716A1 /* color.swift */; };
 		381F37732909201A00EBEBE0 /* starApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381F37722909201A00EBEBE0 /* starApp.swift */; };
 		381F37772909201B00EBEBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381F37762909201B00EBEBE0 /* Assets.xcassets */; };
 		381F377A2909201B00EBEBE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381F37792909201B00EBEBE0 /* Preview Assets.xcassets */; };
@@ -42,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04DD521D291684F2009716A1 /* catogry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catogry.swift; sourceTree = "<group>"; };
+		04DD521F29168561009716A1 /* photopicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photopicker.swift; sourceTree = "<group>"; };
+		04DD5221291685E1009716A1 /* JoinChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinChallenge.swift; sourceTree = "<group>"; };
+		04DD522329168638009716A1 /* AddnewChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddnewChallenge.swift; sourceTree = "<group>"; };
+		04DD522529168755009716A1 /* color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color.swift; sourceTree = "<group>"; };
 		381F376F2909201A00EBEBE0 /* star.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = star.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		381F37722909201A00EBEBE0 /* starApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = starApp.swift; sourceTree = "<group>"; };
 		381F37762909201B00EBEBE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,8 +129,13 @@
 				38D8B1862910E8630005EAF5 /* login.swift */,
 				38D8B1842910E74F0005EAF5 /* newchallenges.swift */,
 				388826BC290FA127004023F9 /* challenges.swift */,
+				04DD521D291684F2009716A1 /* catogry.swift */,
+				04DD521F29168561009716A1 /* photopicker.swift */,
+				04DD5221291685E1009716A1 /* JoinChallenge.swift */,
+				04DD522329168638009716A1 /* AddnewChallenge.swift */,
 				381F379C2909213D00EBEBE0 /* splash.swift */,
 				381F37762909201B00EBEBE0 /* Assets.xcassets */,
+				04DD522529168755009716A1 /* color.swift */,
 				381F37782909201B00EBEBE0 /* Preview Content */,
 			);
 			path = star;
@@ -281,15 +296,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DD522029168561009716A1 /* photopicker.swift in Sources */,
 				388826B7290F9A34004023F9 /* ProfileView.swift in Sources */,
 				388826BD290FA127004023F9 /* challenges.swift in Sources */,
+				04DD522629168755009716A1 /* color.swift in Sources */,
 				388826B9290F9AAE004023F9 /* likesView.swift in Sources */,
+				04DD5222291685E1009716A1 /* JoinChallenge.swift in Sources */,
+				04DD521E291684F2009716A1 /* catogry.swift in Sources */,
 				388826BB290F9D8E004023F9 /* Tab.swift in Sources */,
 				38D8B1872910E8630005EAF5 /* login.swift in Sources */,
 				381F37732909201A00EBEBE0 /* starApp.swift in Sources */,
 				38D8B1892910EC8C0005EAF5 /* Picture.swift in Sources */,
 				381F379D2909213D00EBEBE0 /* splash.swift in Sources */,
 				38D8B1852910E74F0005EAF5 /* newchallenges.swift in Sources */,
+				04DD522429168638009716A1 /* AddnewChallenge.swift in Sources */,
 				388826BF290FA17D004023F9 /* notifications.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
