@@ -71,7 +71,7 @@ struct challenges: View {
                                    Button{
                                    }label: {
                                        Image(systemName: "info.circle.fill")
-                                           .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                                           .foregroundColor(Color(red: 1.0, green: 1.0, blue: 1.0))
                                    }
                                    
                                        .padding(.top, 131.0)
@@ -100,7 +100,7 @@ struct challenges: View {
                                    Button{
                                    }label: {
                                        Image(systemName: "info.circle.fill")
-                                           .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                                           .foregroundColor(Color(red: 1.0, green: 1.0, blue: 1.0))
                                    }.padding(.top, 131.0)
                                    
                                    Button {
@@ -128,7 +128,7 @@ struct challenges: View {
                                    }label: {
                                        Image(systemName: "info.circle.fill")
                                            .accentColor(.white)
-                                           .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                                           .foregroundColor(Color(red: 1.0, green: 1.0, blue: 1.0))
                                    }.padding(.top, 131.0)
                                        
                                    
@@ -174,13 +174,13 @@ struct challenges: View {
                                    Button{
                                    }label: {
                                        Image(systemName: "info.circle.fill")
-                                           .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                                           .foregroundColor(Color(red: 1.0, green: 1.0, blue: 1.0))
                                    }.padding([.top, .trailing], 144.0)
                                
                                Button{
                                }label: {
                                    Image(systemName: "bell.fill")
-                                       .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                                       .foregroundColor(Color(red: 1.0, green: 1.0, blue: 1.0))
                                }.padding([.top, .leading], 144.0)
                            }
                                        
@@ -192,12 +192,12 @@ struct challenges: View {
                                            Button{
                                            }label: {
                                                Image(systemName: "info.circle.fill")
-                                                   .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                                                   .foregroundColor(Color(red: 1.0, green: 1.0, blue: 1.0))
                                            }.padding([.top, .trailing], 144.0)
                                            Button{
                                            }label: {
                                                Image(systemName: "bell.fill")
-                                                   .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                                                   .foregroundColor(Color(red: 1.0, green: 1.0, blue: 1.0))
                                            }.padding([.top, .leading], 144.0)
                                                
                                        }
@@ -210,12 +210,12 @@ struct challenges: View {
                                    Button{
                                    }label: {
                                        Image(systemName: "info.circle.fill")
-                                           .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                                           .foregroundColor(Color(red: 1.0, green: 1.0, blue: 1.0))
                                    }.padding([.top, .trailing], 144.0)
                                    Button{
                                    }label: {
                                        Image(systemName: "bell.fill")
-                                           .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                                           .foregroundColor(Color(red: 1.0, green: 1.0, blue: 1.0))
                                            .accentColor(.white)
                                    }.padding([.top, .leading], 144.0)
                                }
