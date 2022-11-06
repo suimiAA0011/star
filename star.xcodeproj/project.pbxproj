@@ -24,7 +24,8 @@
 		388826BB290F9D8E004023F9 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388826BA290F9D8E004023F9 /* Tab.swift */; };
 		388826BD290FA127004023F9 /* challenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388826BC290FA127004023F9 /* challenges.swift */; };
 		388826BF290FA17D004023F9 /* notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388826BE290FA17D004023F9 /* notifications.swift */; };
-		38D8B1852910E74F0005EAF5 /* newchallenges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B1842910E74F0005EAF5 /* newchallenges.swift */; };
+		38AD93F72916D77F00A7A37A /* Tops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD93F62916D77F00A7A37A /* Tops.swift */; };
+		38AD93F92916D7CD00A7A37A /* videocard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AD93F82916D7CD00A7A37A /* videocard.swift */; };
 		38D8B1892910EC8C0005EAF5 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D8B1882910EC8C0005EAF5 /* Picture.swift */; };
 		67A7EDB12916B081008C6803 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7EDB02916B081008C6803 /* Login.swift */; };
 		67A7EDB32916B1A4008C6803 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7EDB22916B1A4008C6803 /* Register.swift */; };
@@ -69,7 +70,8 @@
 		388826BA290F9D8E004023F9 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		388826BC290FA127004023F9 /* challenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenges.swift; sourceTree = "<group>"; };
 		388826BE290FA17D004023F9 /* notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notifications.swift; sourceTree = "<group>"; };
-		38D8B1842910E74F0005EAF5 /* newchallenges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newchallenges.swift; sourceTree = "<group>"; };
+		38AD93F62916D77F00A7A37A /* Tops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tops.swift; sourceTree = "<group>"; };
+		38AD93F82916D7CD00A7A37A /* videocard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videocard.swift; sourceTree = "<group>"; };
 		38D8B1882910EC8C0005EAF5 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 		67A7EDB02916B081008C6803 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		67A7EDB22916B1A4008C6803 /* Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
@@ -133,7 +135,6 @@
 				67A7EDB42916B20A008C6803 /* Reset.swift */,
 				388826BA290F9D8E004023F9 /* Tab.swift */,
 				388826BE290FA17D004023F9 /* notifications.swift */,
-				38D8B1842910E74F0005EAF5 /* newchallenges.swift */,
 				388826BC290FA127004023F9 /* challenges.swift */,
 				04DD521D291684F2009716A1 /* catogry.swift */,
 				04DD521F29168561009716A1 /* photopicker.swift */,
@@ -141,6 +142,8 @@
 				04DD522329168638009716A1 /* AddnewChallenge.swift */,
 				381F379C2909213D00EBEBE0 /* splash.swift */,
 				381F37762909201B00EBEBE0 /* Assets.xcassets */,
+				38AD93F62916D77F00A7A37A /* Tops.swift */,
+				38AD93F82916D7CD00A7A37A /* videocard.swift */,
 				04DD522529168755009716A1 /* color.swift */,
 				381F37782909201B00EBEBE0 /* Preview Content */,
 			);
@@ -307,6 +310,7 @@
 				388826BD290FA127004023F9 /* challenges.swift in Sources */,
 				04DD522629168755009716A1 /* color.swift in Sources */,
 				388826B9290F9AAE004023F9 /* likesView.swift in Sources */,
+				38AD93F92916D7CD00A7A37A /* videocard.swift in Sources */,
 				04DD5222291685E1009716A1 /* JoinChallenge.swift in Sources */,
 				67A7EDB12916B081008C6803 /* Login.swift in Sources */,
 				67A7EDB52916B20A008C6803 /* Reset.swift in Sources */,
@@ -316,9 +320,9 @@
 				67A7EDB32916B1A4008C6803 /* Register.swift in Sources */,
 				38D8B1892910EC8C0005EAF5 /* Picture.swift in Sources */,
 				381F379D2909213D00EBEBE0 /* splash.swift in Sources */,
-				38D8B1852910E74F0005EAF5 /* newchallenges.swift in Sources */,
 				04DD522429168638009716A1 /* AddnewChallenge.swift in Sources */,
 				388826BF290FA17D004023F9 /* notifications.swift in Sources */,
+				38AD93F72916D77F00A7A37A /* Tops.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

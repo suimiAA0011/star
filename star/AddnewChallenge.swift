@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct AddnewChallenge: View {
-    
+    @State private var isPresentedFull1 = false
+    @State private var isPresentedFull2 = false
     
     var body: some View {
         NavigationView{
@@ -55,10 +56,10 @@ struct AddnewChallenge: View {
                             HStack(){
                                 
                                 Text("Catogerys :")
-                                    .foregroundColor(Color(red: 0.265, green: 0.275, blue: 0.439))
+                                    .foregroundColor(Color(red: 0.265, green: 0.275, blue: 0.439)).frame(width: 100)
                                 
                                 
-                                catogry()
+                                catogry().frame(width: 100)
                                 
                             } .padding(.trailing,150)
                             
@@ -76,7 +77,7 @@ struct AddnewChallenge: View {
                     HStack{
                         
                         Button("Done") {
-                            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                            isPresentedFull1.toggle()
                             
                         }
                         .frame(width: /*@START_MENU_TOKEN@*/130.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
@@ -84,15 +85,17 @@ struct AddnewChallenge: View {
                         .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
                         .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
                         Spacer(minLength: 80)
+                            .fullScreenCover(isPresented:$isPresentedFull1){Tab()}
                         
                         Button("Cancel") {
-                            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                            isPresentedFull2.toggle()
                         }
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                         .frame(width: /*@START_MENU_TOKEN@*/130.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
                         .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.818, green: 0.828, blue: 0.896)/*@END_MENU_TOKEN@*/)
                         .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
                         .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                        .fullScreenCover(isPresented:$isPresentedFull2){challenges()}
                         
                     }
                     .padding(.top,10)

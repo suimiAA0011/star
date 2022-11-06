@@ -48,7 +48,7 @@ struct ProfileView: View {
                     }
                 HStack{
                     Text("Profile").fontWeight(.heavy).font(.title).bold().foregroundColor(Color(red: 0.265, green: 0.275, blue: 0.443)).padding(.leading) .padding([.bottom, .trailing], 280.0)
-                    .padding(.bottom, 375.0)}
+                    .padding(.bottom, 375.0).padding(.top, 29.0)}
                
              
                     VStack{
@@ -86,14 +86,13 @@ struct ProfileView: View {
                 }
                     
                     
-                
-                
-                
+         
             }.edgesIgnoringSafeArea(.all)
             
             
+                   
         }
-        
+      
     }}
 
 struct ProfileView_Previews: PreviewProvider {

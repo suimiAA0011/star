@@ -9,6 +9,9 @@ import SwiftUI
 
 
 struct JoinChallenge: View {
+    @State private var isPresented = false
+    @State private var isPresented1 = false
+
     @State var changepage : Bool = false
     var body: some View {
         NavigationView{
@@ -25,7 +28,7 @@ struct JoinChallenge: View {
                             .font(.title)
                         
                             .fontWeight(.bold)
-                            .foregroundColor(Color.black)
+                            .foregroundColor(Color(red: 0.265, green: 0.275, blue: 0.439))
                             .multilineTextAlignment(.center)
                             .padding(.top, 40.0)
                     }
@@ -36,8 +39,8 @@ struct JoinChallenge: View {
                         VStack{
                             
                             Text("Describtion :")
-                            
-                                .padding(.trailing, 230.0)
+                                .foregroundColor(Color(red: 0.265, green: 0.275, blue: 0.439))
+                                .padding(.trailing, 229.0)
                             TextField("Write your Challenge describtion ", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                             
                                 .padding(.bottom, 140.0)
@@ -59,24 +62,30 @@ struct JoinChallenge: View {
                     HStack{
                         
                         Button("Done") {
-                            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                           
                             
-                        }
-                        NavigationLink(destination: AddnewChallenge(), isActive: self.$changepage){Text("Done")}
-                            .frame(width: /*@START_MENU_TOKEN@*/130.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
-                            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.265, green: 0.275, blue: 0.439)/*@END_MENU_TOKEN@*/)
-                            .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
-                            .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                         isPresented.toggle()
+                    }
+                        .frame(width: /*@START_MENU_TOKEN@*/130.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
+                        .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.265, green: 0.275, blue: 0.439)/*@END_MENU_TOKEN@*/)
+                        .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
+                        .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                        
+                    .fullScreenCover(isPresented:$isPresented){Tops()}
+                        
+                           
+                        
                         Spacer(minLength: 80)
                         
                         Button("Cancel") {
-                            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                            isPresented.toggle()
                         }
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                         .frame(width: /*@START_MENU_TOKEN@*/130.0/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/50.0/*@END_MENU_TOKEN@*/)
                         .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(red: 0.818, green: 0.828, blue: 0.896)/*@END_MENU_TOKEN@*/)
                         .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
                         .foregroundColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                        .fullScreenCover(isPresented:$isPresented){challenges()}
                         
                     }
                     .padding(.top,10)

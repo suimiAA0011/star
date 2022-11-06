@@ -21,15 +21,37 @@ struct splash: View {
             ZStack{Image("background")
                     .scaledToFill()
                 
+                VStack {
+                    Text("Challenge Happens Everywhere")
+                        .bold()
+                    
+                    .foregroundColor(.white.opacity(0.80)).padding(.top, 250.0)
+                } .scaleEffect(size)
+                    .opacity(opacity)
+                    .onAppear{withAnimation(.spring())
+                        {
+                            self.size = 0.9
+                            self.opacity = 1.8
+                        }
+                    }
+                    .onAppear{
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 6.0){
+                            self.isActive = true
+                            
+                        }}
+
                 VStack{
                     Image("logo")
                         .font(.system(size:80))
                         .foregroundColor(.red)
                     
-                    Text("المفروض هرج")
-                        .font(Font.custom("Baskerville-Bold", size: 26))
-                        .foregroundColor(.black.opacity(0.80))
+                    Text("Starbursts")
+                        .bold()
+                        .font(.title)
+                        .font(Font.custom("anton-Bold", size: 10))
+                        .foregroundColor(.white.opacity(0.80))
                 }
+                
                 .scaleEffect(size)
                 .opacity(opacity)
                 .onAppear{withAnimation(.easeIn(duration: 1.2))

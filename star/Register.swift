@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct RegisterView: View {
+    @State private var isPresentedFull1 = false
+    @State private var isPresented = false
     @State var Email: String=""
     @State var Password: String=""
     @State var Username: String=""
@@ -23,7 +25,19 @@ struct RegisterView: View {
                     .padding(.bottom, 100.0)
                     .edgesIgnoringSafeArea(.all)
                 
-                
+                HStack {
+                    Button {
+                        isPresented.toggle()
+                    }label: {
+                        Image(systemName: "chevron.backward").bold()
+                            .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                    }
+                                     .imageScale(.large)
+                                     .padding(.leading, -180.0)
+                                     .padding(.bottom, 700.0)
+                                     .fullScreenCover(isPresented:$isPresented ){challenges()}
+                    
+                }
                 
                 VStack{
                     
@@ -53,24 +67,26 @@ struct RegisterView: View {
                     
                     Button("Register"){
                         //Authenticate user
+                        isPresentedFull1.toggle()
                     }
                     .foregroundColor(.white)
                     .frame(width: 300, height: 50)
                     .background(Color.SecondColor)
                     .cornerRadius(10)
                     .padding(.bottom, 20)
+                    .fullScreenCover(isPresented:$isPresentedFull1){JoinChallenge()}
                     
                     
                     
                 }.padding()
                 .padding(.top, 200.0)}
-            .toolbar{
-                ToolbarItemGroup(placement: .navigationBarLeading){
-                Label: do {
-                    Label("back", systemImage: "chevron.backward")
-                }
-                }
-            }
+//            .toolbar{
+//                ToolbarItemGroup(placement: .navigationBarLeading){
+//                Label: do {
+//                    Label("back", systemImage: "chevron.backward")
+//                }
+//                }
+//            }
             
         }
     }

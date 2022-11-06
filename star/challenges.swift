@@ -11,10 +11,16 @@
         import SwiftUI
 
 struct challenges: View {
+    @State private var isPresented = false
+    @State private var isPresented1 = false
+    @State private var isPresented2 = false
+
+    
+    
     var body: some View {
         ZStack(alignment:.topTrailing) {
                    
-                   Image("background2")
+                   Image("Purple 1")
                        .resizable()
                        .padding(.trailing)
                        .scaledToFill()
@@ -24,13 +30,15 @@ struct challenges: View {
                   
                    HStack {
                        Button {
+                           isPresented.toggle()
                        }label: {
                            Image(systemName: "plus")
                                .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
                        }
                                         .imageScale(.large)
                                         .padding(.leading, -42.0)
-                                        .padding(.top, 37.0)
+                                        .padding(.top, 47.0)
+                                        .fullScreenCover(isPresented:$isPresented ){ContentView()}
                        
                    }
                         
@@ -56,7 +64,7 @@ struct challenges: View {
                            HStack{
                                
                                ZStack{
-                                   Image("art2")
+                                   Image("Image 1")
                                        .resizable()
                                        .frame(width: 259, height: 180)
                                        .cornerRadius(12)
@@ -68,12 +76,13 @@ struct challenges: View {
                                    
                                        .padding(.top, 131.0)
                                    Button {
-                                       
+                                       isPresented2.toggle()
                                    } label: {
                                        Text("JOIN NOW")
                                            .padding([.top, .trailing], -6.0)
                                        
-                                   }
+                                   }                        .fullScreenCover(isPresented:$isPresented2){Tops()}
+
                                    
                                    .controlSize(.regular)
                                    .padding([.top, .trailing], 135.0)
@@ -83,7 +92,7 @@ struct challenges: View {
                                    .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
                                }
                                ZStack{
-                                   Image("art2")
+                                   Image("Image 6")
                                        .resizable()
                                        .frame(width: 259, height: 180)
                                        .cornerRadius(12)
@@ -95,7 +104,7 @@ struct challenges: View {
                                    }.padding(.top, 131.0)
                                    
                                    Button {
-                                       
+                                       isPresented2.toggle()
                                    } label: {
                                        Text("JOIN NOW")
                                            .padding([.top, .trailing], -6.0)
@@ -107,10 +116,11 @@ struct challenges: View {
                                    .buttonBorderShape(.roundedRectangle(radius: 23))
                                    .accentColor(.white)
                                    .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                                   .fullScreenCover(isPresented:$isPresented2){Tops()}
                                }
                                ZStack{
                                    
-                                   Image("art2")
+                                   Image("Image 2")
                                        .resizable()
                                        .frame(width: 259, height: 180)
                                        .cornerRadius(12)
@@ -124,6 +134,7 @@ struct challenges: View {
                                    
                                        
                                    Button {
+                                       isPresented2.toggle()
                                    } label: {
                                        Text("JOIN NOW")
                                            .padding([.top, .trailing], -6.0)
@@ -134,6 +145,7 @@ struct challenges: View {
                                    .buttonBorderShape(.roundedRectangle(radius: 23))
                                    .accentColor(.white)
                                    .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                                   .fullScreenCover(isPresented:$isPresented2){Tops()}
                                }
                                
                                
@@ -155,7 +167,7 @@ struct challenges: View {
                        ScrollView(.horizontal){
                            HStack{
                                ZStack{
-                                   Image("art2")
+                                   Image("Image")
                                        .resizable()
                                        .frame(width: 259, height: 180)
                                        .cornerRadius(12)
@@ -173,7 +185,7 @@ struct challenges: View {
                            }
                                        
                                        ZStack{
-                                           Image("art2")
+                                           Image("Image 4")
                                                .resizable()
                                                .frame(width: 259, height: 180)
                                                .cornerRadius(12)
@@ -191,7 +203,7 @@ struct challenges: View {
                                        }
                                        
                                ZStack{
-                                   Image("art2")
+                                   Image("Image 5")
                                        .resizable()
                                        .frame(width: 259, height: 180)
                                        .cornerRadius(12)
@@ -219,6 +231,9 @@ struct challenges: View {
                      }
               
                    }
+                   
+               
+
                    
 struct challenges_Previews: PreviewProvider {
     static var previews: some View {

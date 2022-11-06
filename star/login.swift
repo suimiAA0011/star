@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isPresented = false
+    @State private var isPresentedFull1 = false
+    @State private var isPresentedFull2 = false
+    @State private var isPresentedFull3 = false
+    @State var changepage : Bool = false
+
     enum Field: Hashable {
         case usernameField
         case passwordField
@@ -29,6 +35,19 @@ struct ContentView: View {
                     .edgesIgnoringSafeArea(.all)
                 
                 
+                 HStack {
+                     Button {
+                         isPresented.toggle()
+                     }label: {
+                         Image(systemName: "chevron.backward").bold()
+                             .foregroundColor(Color(red: 0.27, green: 0.275, blue: 0.439))
+                     }
+                                      .imageScale(.large)
+                                      .padding(.leading, -180.0)
+                                      .padding(.bottom, 700.0)
+                                      .fullScreenCover(isPresented:$isPresented ){challenges()}
+                     
+                 }
                 
                 VStack{
                     
@@ -48,8 +67,10 @@ struct ContentView: View {
                     
                     
                     Button("Forgot password?") {
+                        isPresentedFull1.toggle()
                         
                     }.foregroundColor(.SecondColor)
+                        .fullScreenCover(isPresented:$isPresentedFull1){ResetView()}
                     
                         .padding(.leading, 250.0)
                         .font(.system(size:12))
@@ -57,14 +78,18 @@ struct ContentView: View {
                     
                     
             
-                    Button("Login"){}
+                    Button("Login"){
+                        isPresentedFull2.toggle()
+                    }
                         .foregroundColor(.white)
                         .frame(width: 300, height: 50)
                         .background(Color.SecondColor)
                         .cornerRadius(10)
                         .padding(.bottom, 20)
+                        .fullScreenCover(isPresented:$isPresentedFull2){AddnewChallenge()}
                         .onTapGesture{
                             handleLogin(username: Email, password: Password)
+                            
                             
                             
                         }
@@ -81,21 +106,28 @@ struct ContentView: View {
                                 .fontWeight(.bold)
                                 .foregroundColor(.mycolor)
                             Button("Register") {
-                                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
-                            }.foregroundColor(.SecondColor)
+                               
+                                isPresentedFull3.toggle()
+                                
+                                   
+                            }
+                            .foregroundColor(.SecondColor)
+                                .fullScreenCover(isPresented:$isPresentedFull3){RegisterView()}
                         }
                         
                         
                     }.padding()
                     .padding(.top, 200.0)}
                 
-                .toolbar{
-                    ToolbarItemGroup(placement: .navigationBarLeading){
-                    Label: do {
-                        Label("back", systemImage:"chevron.backward")
-                    }
-                    }
-                }
+//                .toolbar{
+//
+//                    ToolbarItemGroup(placement: .navigationBarLeading){
+//
+//                    Label: do {
+//                        Label("back", systemImage:"chevron.backward")
+//                    }
+//                    }
+ //               }
                 
             }
             .accentColor(.SecondColor)
